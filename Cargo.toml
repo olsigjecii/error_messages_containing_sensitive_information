@@ -1,0 +1,13 @@
+[package]
+name = "error_messages_containing_sensitive_information"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+actix-web = "4" # The Actix-Web framework
+actix-files = "0.6" # Useful for serving static files if we expand later
+serde = { version = "1.0", features = [
+    "derive",
+] } # For deserializing query parameters
+env_logger = "0.11" # For basic logging (useful for seeing internal errors)
+log = "0.4" # Logging facade
