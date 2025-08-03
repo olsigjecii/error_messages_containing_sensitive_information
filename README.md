@@ -1,4 +1,4 @@
-Test the vulnerable endpoint:
+# XPath Injection Lesson in Rust 🦀
 
 Normal Query (Expected Success):
 Open your web browser and navigate to:
